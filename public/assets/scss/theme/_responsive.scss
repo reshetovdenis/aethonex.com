@@ -1,6 +1,13 @@
 /**=====================
      63. Responsive CSS Start
   ==========================**/
+  nav {
+    a {
+      img {
+        filter: brightness(0) invert(1);
+      }
+    }
+  }
 
 @media only screen and (max-width: 1600px) {
   .about {

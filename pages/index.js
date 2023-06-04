@@ -1,56 +1,40 @@
 import React, {useEffect} from 'react'
 import Head from 'next/head'
 // import Custom Components
-import Header from './layouts/sections/slonigiraf/header'
-import BannerSection from './layouts/sections/slonigiraf/banner'
-import AboutSection from './layouts/sections/slonigiraf/about'
-import ServiceSection from './layouts/sections/slonigiraf/service'
-import VideoSection from './layouts/sections/slonigiraf/video'
-import WorkSection from './layouts/sections/slonigiraf/work'
-import PricingSection from './layouts/sections/slonigiraf/pricing'
-import ExpertSection from './layouts/sections/slonigiraf/expert'
-import TestimonialSection from './layouts/sections/slonigiraf/testimonial'
-import BlogSection from './layouts/sections/slonigiraf/blog'
+import Header from './layouts/sections/aethonex/header'
+import BannerSection from './layouts/sections/aethonex/banner'
+import ServicesSection from './layouts/sections/aethonex/services'
+import AboutSection from './layouts/sections/aethonex/about'
+
 import FooterSection from './layouts/sections/slonigiraf/footer'
 
 const Home = () => {
  
   useEffect(() => {
-    document.body.style.setProperty('--primary', '#0368b4')
-    document.body.style.setProperty('--secondary', '#464545')
-    document.body.style.setProperty('--light', '#1F357D')
-    document.body.style.setProperty('--dark', '#0368b4')
+    document.body.style.setProperty('--primary', '#357fef')
+    document.body.style.setProperty('--secondary', '#4e4e4e')
+    document.body.style.setProperty('--light', '#13B8EA')
+    document.body.style.setProperty('--dark', '#4E56F3')
   })
 
   return (
-    <div className="theme-color" >
-        <Head>
-            <title>Slonigiraf </title>
-            <meta name='Agency Layout' content='' />
-        </Head>
+    <div>
+      <Head>
+        <title>Aethonex</title>
+      </Head>
 
-        <Header className="agency" />
+      <Header className="app1" />
 
-        <BannerSection />
+      <BannerSection />
 
-        <AboutSection />
+      {/* <ServicesSection />
 
-        <ServiceSection />
+      <AboutSection />
 
-        <VideoSection />
-
-        <WorkSection />
-
-        {/* <PricingSection /> */}
-        <TestimonialSection />
-
-        <ExpertSection />
-
-        <BlogSection />
-
-        <FooterSection />
+      <FooterSection /> */}
 
     </div>
+
   )
 }
 
