@@ -6,7 +6,7 @@ services:
     container_name: aethonex-com
     restart: unless-stopped
     environment:
-      - VIRTUAL_HOST=aethonex.com  
+      - VIRTUAL_HOST=aethonex.com
       - VIRTUAL_PORT=8080
       - LETSENCRYPT_HOST=aethonex.com
       - LETSENCRYPT_EMAIL=reshetovdenis@gmail.com
