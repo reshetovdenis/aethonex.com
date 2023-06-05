@@ -20,7 +20,7 @@ const Header = props => {
                     <Col>
                         <nav>
                             <a className="m-r-auto" href="/">
-                                    <img alt="" className="img-fluid" src="/assets/images/logo/aethonex_logo.png" />
+                                    <img alt="" className="img-fluid" src="/assets/images/logo/aethonex_logo.svg" />
                             </a>
                             <div className="responsive-btn">
                                 <a className="toggle-nav" onClick={clickSidebar} >

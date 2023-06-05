@@ -9,13 +9,9 @@ const Footer = () => (
                 <Row>
                     <Col lg="12" md="12" sm="12">
                         <div className="logo-sec">
-                            <div className="footer-title mobile-title p-t-0">
-                                <h3 className="text-white">About Us</h3>
-                            </div>
+                            
                             <div className="footer-content">
-                                <img alt="" className="img-fluid footer-logo" src="/assets/images/logo/aethonex_logo.png" />
-                                
-                                
+                                <img alt="" className="img-fluid footer-logo" src="/assets/images/logo/aethonex_logo.svg" />
                             </div>
                         </div>
                         <div className="footer-content">
