@@ -1,4 +1,4 @@
 #!/bin/sh
 git pull && \
-docker build -t nodejs-slonigiraf-org . && \
+docker build -t aethonex-com . && \
 docker compose up -d
