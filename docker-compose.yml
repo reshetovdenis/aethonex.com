@@ -7,11 +7,10 @@ services:
     restart: unless-stopped
     environment:
       - VIRTUAL_HOST=aethonex.com  
-      - VIRTUAL_PORT=80
+      - VIRTUAL_PORT=8080
       - LETSENCRYPT_HOST=aethonex.com
       - LETSENCRYPT_EMAIL=reshetovdenis@gmail.com
-    expose:
-      - 80
+      
 networks:
   default:
     external:
