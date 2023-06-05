@@ -751,13 +751,6 @@
         height: 25px;
       }
     }
-    &.app2 {
-      .img-mobile {
-        .header-image {
-          width: 95%;
-        }
-      }
-    }
     &.event {
       .set-bottom {
         bottom: 30px;
@@ -3499,13 +3492,6 @@
     }
     .squares {
       display: none;
-    }
-    &.app2 {
-      .header-image {
-        width: unset;
-        height: 500px;
-        margin-top: 10px;
-      }
     }
     .wave-orange {
       display: none;

@@ -6,7 +6,7 @@ const Banner = () => (
         <div className="app2-header bg">
             <Container>
                 <Row>
-                    <Col xl="7" lg="6" md="8">
+                    <Col xl="12" lg="8" md="12">
                         <div className="center-text">
                             <div>
                                 <div className="header-text">
@@ -18,8 +18,7 @@ const Banner = () => (
                                 <div className="link-horizontal">
                                     <ul>
                                         <li>
-                                            <a className="btn btn-default btn-white">get app
-                                                now</a>
+                                            <a className="btn btn-default btn-white" a href="mailto:info@aethonex.com">Contact us</a>
                                         </li>
                                         <li>
                                             <a className="btn btn-default primary-btn transparent">discover
@@ -29,9 +28,11 @@ const Banner = () => (
                                 </div>
                             </div>
                         </div>
-                    </Col>
-                    <Col xl="5" lg="6" md="4">
                         <img alt="" className="header-image" src="/assets/images/inside_brain.png" />
+                    </Col>
+                    
+                    <Col xl="12" lg="6" md="4">
+                        
                     </Col>
                 </Row>
             </Container>

@@ -218,6 +218,17 @@ ul {
     border-radius: 25px;
   }
 }
+.header-image {
+  width: 35%;
+  position: absolute;
+  top: 20%;
+  right: 0px;
+}
+@media (max-width: 1200px) {
+  .header-image {
+    display: none;
+  }
+}
 .lable-nav {
   background-color: $white;
   padding: 3px 9px;
@@ -3777,13 +3788,6 @@ booking section end
   .title {
     .title-img {
       height: 50px;
-    }
-  }
-  &.header {
-    .img-mobile {
-      .header-image {
-        width: 415px;
-      }
     }
   }
   &.app2-animation {
