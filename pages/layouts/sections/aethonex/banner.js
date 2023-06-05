@@ -18,10 +18,10 @@ const Banner = () => (
                                 <div className="link-horizontal">
                                     <ul>
                                         <li>
-                                            <a className="btn btn-default btn-white" a href="mailto:info@aethonex.com">Contact us</a>
+                                            <a className="btn btn-default btn-white" href="mailto:info@aethonex.com">Contact us</a>
                                         </li>
                                         <li>
-                                            <a className="btn btn-default primary-btn transparent">discover
+                                            <a className="btn btn-default primary-btn transparent" href="#pipeline">discover
                                                 more</a>
                                         </li>
                                     </ul>

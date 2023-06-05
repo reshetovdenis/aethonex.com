@@ -5,7 +5,8 @@ const Pipeline = () => (
     <Container>
                 <Row>
                     <Col lg="12" md="12" sm="12">
-  <h2 class="pipeline-header">Drug Discovery Pipeline</h2>
+                    <br/>
+  <h2 class="pipeline-header" id="pipeline">Drug Discovery Pipeline</h2>
   
       <h3>CY-101 (Preclinical)</h3>
       <br/>
