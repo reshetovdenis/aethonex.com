@@ -5,7 +5,7 @@ import Header from './layouts/sections/aethonex/header'
 import BannerSection from './layouts/sections/aethonex/banner'
 import ServicesSection from './layouts/sections/aethonex/services'
 import AboutSection from './layouts/sections/aethonex/about'
-
+import Pipeline from './layouts/sections/aethonex/pipeline'
 import FooterSection from './layouts/sections/aethonex/footer'
 
 const Home = () => {
@@ -32,6 +32,7 @@ const Home = () => {
       <AboutSection />
 
        */}
+       <Pipeline />
        <FooterSection />
 
     </div>
