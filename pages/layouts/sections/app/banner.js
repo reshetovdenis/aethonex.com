@@ -36,7 +36,7 @@ const Banner = () => (
                     </Col>
                     <Col xl="5" lg="6" md="4">
                         <div className="img-mobile set-abs">
-                            <img alt="" className="headaer-image" src="/assets/images/app_landing2/h2-mobile.png" />
+                            <img alt="" className="header-image" src="/assets/images/app_landing2/h2-mobile.png" />
 
                         </div>
                         <div className="wave-orange"></div>

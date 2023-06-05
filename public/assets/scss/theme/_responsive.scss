@@ -753,8 +753,8 @@
     }
     &.app2 {
       .img-mobile {
-        .headaer-image {
-          width: 315px;
+        .header-image {
+          width: 95%;
         }
       }
     }
@@ -3501,15 +3501,10 @@
       display: none;
     }
     &.app2 {
-      .img-mobile {
-        position: relative;
-        text-align: right;
-        margin-right: -50px;
-        .headaer-image {
-          width: unset;
-          height: 500px;
-          margin-top: 10px;
-        }
+      .header-image {
+        width: unset;
+        height: 500px;
+        margin-top: 10px;
       }
     }
     .wave-orange {
