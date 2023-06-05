@@ -1,7 +1,7 @@
 version: '3'
 
 services:
-  ui-slonigiraf-org:
+  aethonex-com:
     image: aethonex-com
     container_name: aethonex-com
     restart: unless-stopped
@@ -12,7 +12,6 @@ services:
       - LETSENCRYPT_EMAIL=reshetovdenis@gmail.com
     expose:
       - 80
-
 networks:
   default:
     external:
