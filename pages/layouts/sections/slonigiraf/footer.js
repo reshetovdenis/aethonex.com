@@ -10,7 +10,7 @@ const Footer = () => (
                             <div className="footer-title mobile-title">
                                 <h3 className="text-white">About Us</h3>
                             </div>
-                            <div className="footer-contant">
+                            <div className="footer-content">
                                 <img alt="" className="img-fluid footer-logo" src="/assets/images/logo/named-logo.png" />
 
                                 <ul className="d-d-flex footer-social social">
@@ -34,7 +34,7 @@ const Footer = () => (
                         <div className="footer-title mobile-title">
                             <h3 className="text-white">contact us</h3>
                         </div>
-                        <div className="footer-contant">
+                        <div className="footer-content">
                             <h5 className="footer-headings">contact us</h5>
                             <div>
                                 <ul className="footer-lists op-text">
@@ -53,7 +53,7 @@ const Footer = () => (
                         <div className="footer-title mobile-title">
                             <h3 className="text-white">learn</h3>
                         </div>
-                        <div className="footer-contant">
+                        <div className="footer-content">
                             <h5 className="footer-headings">learn</h5>
                             <div>
                                 <ul className="footer-lists op-text">
@@ -72,7 +72,7 @@ const Footer = () => (
                         <div className="footer-title mobile-title">
                             <h3 className="text-white">Community</h3>
                         </div>
-                        <div className="footer-contant">
+                        <div className="footer-content">
                             <h5 className="footer-headings">Community</h5>
                             <div>
                                 <ul className="footer-lists op-text">

@@ -36,7 +36,7 @@ const Dark3 = () => (
                             <div className="footer-title mobile-title p-t-0">
                                 <h3 className="text-white">About Us</h3>
                             </div>
-                            <div className="footer-contant">
+                            <div className="footer-content">
                                 <img alt="" className="img-fluid footer-logo" src="../assets/images/logo/1.png" />
                                 <div className="footer-para">
                                     <p className="text-white">Lorem ipsum dolor sit consectetur adipisicing elit, sed do
@@ -63,7 +63,7 @@ const Dark3 = () => (
                         <div className="footer-title mobile-title">
                             <h3 className="text-white">Post Tags</h3>
                         </div>
-                        <div className="footer-contant">
+                        <div className="footer-content">
                             <h5 className="footer-headings">Post Tags</h5>
                             <div className="link-btns">
                                 <ul>
@@ -100,7 +100,7 @@ const Dark3 = () => (
                         <div className="footer-title mobile-title">
                             <h3 className="text-white">blog categories</h3>
                         </div>
-                        <div className="footer-contant">
+                        <div className="footer-content">
                             <h5 className="footer-headings">Blog Categories</h5>
                             <div>
                                 <ul className="footer-lists">
@@ -128,7 +128,7 @@ const Dark3 = () => (
                         <div className="footer-title mobile-title">
                             <h3 className="text-white">Contact Info</h3>
                         </div>
-                        <div className="footer-contant">
+                        <div className="footer-content">
                             <h5 className="footer-headings">Contact Info</h5>
                             <div>
                                 <ul className="footer-lists contacts">

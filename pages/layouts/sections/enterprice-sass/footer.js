@@ -9,7 +9,7 @@ const Footer = () => (
                         <div className="footer-title mobile-title p-t-0">
                             <h3 className="text-white">About Us</h3>
                         </div>
-                        <div className="footer-contant">
+                        <div className="footer-content">
                             <img alt="" className="img-fluid footer-logo" src="/assets/images/logo/1.png" />
                             <div className="footer-para">
                                 <h6 className="text-white para-address">Unice</h6>
@@ -35,7 +35,7 @@ const Footer = () => (
                     <div className="footer-title mobile-title">
                         <h3 className="text-white">Product</h3>
                     </div>
-                    <div className="footer-contant">
+                    <div className="footer-content">
                         <h5 className="footer-headings">Product</h5>
                         <div>
                             <ul className="footer-lists">
@@ -63,7 +63,7 @@ const Footer = () => (
                     <div className="footer-title mobile-title">
                         <h3 className="text-white">Company</h3>
                     </div>
-                    <div className="footer-contant">
+                    <div className="footer-content">
                         <h5 className="footer-headings">Company</h5>
                         <div>
                             <ul className="footer-lists">
@@ -90,7 +90,7 @@ const Footer = () => (
                     <div className="footer-title mobile-title">
                         <h3 className="text-white">Subscribe our newsletter</h3>
                     </div>
-                    <div className="footer-contant">
+                    <div className="footer-content">
                         <h5 className="footer-headings">Subscribe our newsletter</h5>
                         <FormGroup className='form-group'>
                             <Input className="form-control" id="usr" placeholder="email address" type="text" />

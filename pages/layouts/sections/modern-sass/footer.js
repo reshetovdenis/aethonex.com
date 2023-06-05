@@ -9,7 +9,7 @@ const Footer = () => (
                         <div className="footer-title mobile-title">
                             <h3 className="text-white">About Us</h3>
                         </div>
-                        <div className="footer-contant">
+                        <div className="footer-content">
                             <img alt="" className="img-fluid footer-logo" src="/assets/images/logo/3.png" />
                             <div className="footer-para">
                                 <h6 className="text-white para-address">Sassy</h6>
@@ -34,7 +34,7 @@ const Footer = () => (
                     <div className="footer-title mobile-title">
                         <h3 className="text-white">services</h3>
                     </div>
-                    <div className="footer-contant">
+                    <div className="footer-content">
                         <h5 className="footer-headings">services</h5>
                         <div>
                             <ul className="footer-lists">
@@ -50,7 +50,7 @@ const Footer = () => (
                     <div className="footer-title mobile-title">
                         <h3 className="text-white">brand</h3>
                     </div>
-                    <div className="footer-contant">
+                    <div className="footer-content">
                         <h5 className="footer-headings">brand</h5>
                         <div>
                             <ul className="footer-lists">
@@ -66,7 +66,7 @@ const Footer = () => (
                     <div className="footer-title mobile-title">
                         <h3 className="text-white">Support</h3>
                     </div>
-                    <div className="footer-contant">
+                    <div className="footer-content">
                         <h5 className="footer-headings">Support</h5>
                         <div>
                             <ul className="footer-lists">

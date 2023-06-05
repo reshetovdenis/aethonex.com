@@ -34,7 +34,7 @@ const Footer = () => (
                 </Col>
                 <Col xl="6" sm="12">
                     <div className="link-horizontal">
-                        <ul className="link justify-content-center footer-contants">
+                        <ul className="link justify-content-center footer-contents">
                             <li>
                                 <a className="copyright-text" href="#">home</a>
                             </li>
