@@ -11,19 +11,18 @@ const Pipeline = () => (
       <h3>CY-101 (Preclinical)</h3>
       <br/>
       <p>
-        CY-101 is currently in the preclinical stage of the drug discovery pipeline. 
-        It's aimed to lower negative effect or R87C point mutation in CYFIP2 gene. Such a mutation leads
-        EPILEPTIC ENCEPHALOPATHY, EARLY INFANTILE, 65.
+        C-101 is currently in the preclinical stage of the drug discovery pipeline. 
+        It's aimed to treat drug resistant epilepsy.
         </p>
         <br/>
         <p>
-        CY-101 is undergoing extensive laboratory testing and evaluation to assess its safety, efficacy, and potential side effects. Preclinical studies are conducted using cell cultures and animal models to gather data before advancing to clinical trials.
+        C-101 is undergoing extensive laboratory testing and evaluation to assess its safety, efficacy, and potential side effects. Preclinical studies are conducted using cell cultures and animal models to gather data before advancing to clinical trials.
       </p>
         <br/>
-      <h3>WA-203 (Discovery)</h3>
+      <h3>W-203 (Discovery)</h3>
       <br/>
       <p>
-        WA-203 is in the discovery phase of the drug discovery pipeline. 
+        W-203 is in the discovery phase of the drug discovery pipeline. 
         We try to normalize neurite outgrowth to make better dendrites and axons.
       </p>
       </Col>
